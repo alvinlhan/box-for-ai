@@ -197,7 +197,3 @@ Before creating, confirm:
 5. Wait for confirmation
 
 ---
-
-## See Also
-- `box:box` — MCP auth, tool selection, base Box workflows
-- `box-legal-shared` — Risk frameworks, confidentiality, human-in-the-loop patterns
