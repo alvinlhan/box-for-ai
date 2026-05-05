@@ -195,5 +195,3 @@ Before creating, confirm:
 3. Present audit report
 4. **[CONFIRM]**: "Buyer's team access: folders? permission? expiration?"
 5. Wait for confirmation
-
----
