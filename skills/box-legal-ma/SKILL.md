@@ -1,5 +1,5 @@
 ---
-name: box-legal-ma
+name: box-legal-workflows-ma
 description: Build and manage M&A Virtual Data Rooms with Box MCP — create secure folder structures with numbered prefixes for due diligence, assign role-based access to internal teams and external parties (counsel, auditors, buyers), validate permissions before sharing sensitive deal information, use Box AI for cross-document due diligence questions, and organize uploaded files by category. Use this skill when the user mentions M&A, deal rooms, data rooms, due diligence, VDR, mergers and acquisitions, or needs to set up a secure repository for deal documents with controlled external access.
 ---
 
@@ -7,7 +7,7 @@ description: Build and manage M&A Virtual Data Rooms with Box MCP — create sec
 
 > **PREREQUISITES:**
 > - Read `box:box` for Box MCP auth, tool selection, base workflows. If missing, run: `npx skills add https://github.com/box/box-for-ai --skill box`
-> - Read `box-legal-shared` for risk frameworks, confidentiality, human-in-the-loop requirements, Box AI governance. If missing, ensure it's installed from the same skill package.
+> - Read `box-legal-workflows` for risk frameworks, confidentiality, human-in-the-loop requirements, Box AI governance. If missing, ensure it's installed from the same skill package.
 
 M&A Virtual Data Rooms require strict access controls, organized folder structures, and audit trails. This skill guides deal room creation, role-based permissions, and Box AI due diligence.
 
@@ -122,7 +122,7 @@ Before creating, confirm:
 
 ## Guardrails
 
-**See box-legal-shared for:** Human-in-the-loop requirements, confidentiality, Box AI governance.
+**See box-legal-workflows for:** Human-in-the-loop requirements, confidentiality, Box AI governance.
 
 **M&A-specific:**
 
