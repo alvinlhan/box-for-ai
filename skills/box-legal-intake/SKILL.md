@@ -1,5 +1,5 @@
 ---
-name: box-legal-intake
+name: box-legal-workflows-intake
 description: Automate legal client intake and onboarding with Box MCP — review uploaded intake documents for completeness against firm requirements, assess risk levels based on client profile and document content (PEP status, conflicts, sanctions, litigation history), route incomplete or high-risk submissions to appropriate attorneys with context and risk summaries, extract structured metadata (client name, matter type, jurisdiction, value), and generate engagement letters from Box DocGen templates for approved low-risk clients. Use this skill when the user mentions client intake, client onboarding, new client review, intake documents, engagement letters, or needs to process prospective client submissions stored in Box.
 ---
 
@@ -7,7 +7,7 @@ description: Automate legal client intake and onboarding with Box MCP — review
 
 > **PREREQUISITES:**
 > - Read `box:box` for Box MCP auth, tool selection, base workflows. If missing, run: `npx skills add https://github.com/box/box-for-ai --skill box`
-> - Read `box-legal-shared` for risk frameworks, confidentiality, human-in-the-loop requirements, Box AI governance. If missing, ensure it's installed from the same skill package.
+> - Read `box-legal-workflows` for risk frameworks, confidentiality, human-in-the-loop requirements, Box AI governance. If missing, ensure it's installed from the same skill package.
 
 Legal client intake determines if the firm can and should take on a prospective client. This skill automates completeness checks, risk assessment, intelligent routing, and engagement letter generation.
 
@@ -42,7 +42,7 @@ Legal client intake determines if the firm can and should take on a prospective 
 
 **[CONFIRM: Low/medium/high risk criteria for your firm?]**
 
-**See box-legal-shared for:** General risk framework.
+**See box-legal-workflows for:** General risk framework.
 
 **Low-risk:** Individual client, standard matter, no litigation, clear funds, all docs complete, no conflicts, value below threshold.
 
@@ -124,7 +124,7 @@ Legal client intake determines if the firm can and should take on a prospective 
 
 ## Guardrails
 
-**See box-legal-shared for:** Human-in-the-loop requirements, confidentiality, Box AI governance.
+**See box-legal-workflows for:** Human-in-the-loop requirements, confidentiality, Box AI governance.
 
 **Intake-specific:**
 
