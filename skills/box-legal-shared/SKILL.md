@@ -1,6 +1,6 @@
 ---
-name: box-legal-shared
-description: Shared legal concepts for Box-based legal workflows — risk rating frameworks, human-in-the-loop requirements, confidentiality principles, Box AI governance, collaboration roles, metadata strategy, and common workflow patterns. Referenced by box-legal-ma, box-legal-intake, and box-legal-contract skills.
+name: box-legal-workflows
+description: Legal concepts for Box-based legal workflows — risk rating frameworks, human-in-the-loop requirements, confidentiality principles, Box AI governance, collaboration roles, metadata strategy, and common workflow patterns. Referenced by box-legal-workflows-ma, box-legal-workflows-intake, and box-legal-workflows-contract skills.
 ---
 
 # Shared Legal Concepts
