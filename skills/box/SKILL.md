@@ -139,6 +139,8 @@ Follow these steps in order when coding against Box.
 
 ## Guardrails
 
+> **Mandatory guardrails live in `rules/box.mdc` (at the repo root).** That file covers confirmation gates for destructive actions, hub modifications, file comments, Doc Gen output locations, externally shared folders, content display preferences, and Box AI governance. Read and follow them in every session.
+
 - Preserve the existing Box auth model unless the user explicitly asks to change it.
 - Check the current official Box docs before introducing a new auth path, changing auth scope, or changing Box AI behavior.
 - Prefer an official Box SDK when the codebase already uses one or the target language has a maintained SDK. Otherwise use direct REST calls with explicit request and response handling.
